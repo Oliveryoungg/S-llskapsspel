@@ -69,6 +69,19 @@
     document.getElementById("nav").hidden = id === "screen-start";
   }
 
+  // prefix: "mystery" (Tidslinjen) eller "quiz" (Soloquiz)
+  function flipCard(prefix, flipped) {
+    document.getElementById(`${prefix}-flipcard-inner`).classList.toggle("is-flipped", flipped);
+  }
+
+  function setFlipCardBack(prefix, entry, resultClass) {
+    document.getElementById(`${prefix}-reveal-year`).textContent = entry.year;
+    document.getElementById(`${prefix}-reveal-name`).textContent = entry.name;
+    const backEl = document.querySelector(`#${prefix}-flipcard .flip-card__face--back`);
+    backEl.classList.remove("is-correct", "is-wrong");
+    if (resultClass) backEl.classList.add(resultClass);
+  }
+
   function showGameOver(title, rows) {
     document.getElementById("gameover-title").textContent = title;
     document.getElementById("gameover-standings").innerHTML = rows
@@ -151,6 +164,7 @@
   function renderTimelineRound() {
     const game = timelineGame;
     document.getElementById("reveal-panel").hidden = true;
+    flipCard("mystery", false);
     document.getElementById("turn-player-name").textContent = game.currentPlayer().name;
     document.getElementById("deck-remaining").textContent = game.state.deck.length;
     renderScoreBoard();
@@ -171,8 +185,8 @@
     const resultEl = document.getElementById("reveal-result");
     resultEl.textContent = result.correct ? "✅ Rätt placerat!" : "❌ Fel placering";
     resultEl.className = "reveal-panel__result " + (result.correct ? "is-correct" : "is-wrong");
-    document.getElementById("reveal-card").innerHTML =
-      `<span class="rc-year">${result.entry.year}</span><span class="rc-name">${result.entry.name}</span>`;
+    setFlipCardBack("mystery", result.entry, result.correct ? "is-correct" : "is-wrong");
+    flipCard("mystery", true);
     renderTimelineDom(document.getElementById("timeline"), timelineGame.currentPlayer().timeline, false, null);
     renderScoreBoard();
     document.getElementById("next-turn").textContent =
@@ -217,6 +231,7 @@
   function renderQuizRound() {
     document.getElementById("quiz-reveal-panel").hidden = true;
     document.getElementById("quiz-guess-area").hidden = false;
+    flipCard("quiz", false);
     document.getElementById("quiz-score").textContent = quizGame.state.score;
     document.getElementById("quiz-round").textContent = quizGame.state.index + 1;
     const entry = quizGame.current();
@@ -242,8 +257,8 @@
       result.distance === 0
         ? `🎯 Exakt rätt! +${result.points} poäng`
         : `${result.distance} år fel — +${result.points} poäng`;
-    document.getElementById("quiz-reveal-card").innerHTML =
-      `<span class="rc-year">${result.entry.year}</span><span class="rc-name">${result.entry.name}</span>`;
+    setFlipCardBack("quiz", result.entry, result.distance <= 5 ? "is-correct" : "is-wrong");
+    flipCard("quiz", true);
     document.getElementById("quiz-score").textContent = quizGame.state.score;
   }
 

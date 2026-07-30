@@ -98,17 +98,26 @@
       <div class="game-status__scores" id="score-board"></div>
     </div>
 
-    <div class="mystery-card" id="mystery-card">
-      <div class="mystery-card__badge">MYSTERIUMLJUD</div>
-      <p class="mystery-card__desc" id="mystery-desc">—</p>
-      <div class="mystery-card__flags" id="mystery-flags"></div>
-      <div class="mystery-card__confidence" id="mystery-confidence" title="Hur säkert vi hittar en bra matchning på Freesound"></div>
+    <div class="flip-card" id="mystery-flipcard">
+      <div class="flip-card__inner" id="mystery-flipcard-inner">
+        <div class="flip-card__face flip-card__face--front mystery-card">
+          <div class="mystery-card__badge">MYSTERIUMLJUD</div>
+          <p class="mystery-card__desc" id="mystery-desc">—</p>
+          <div class="mystery-card__flags" id="mystery-flags"></div>
+          <div class="mystery-card__confidence" id="mystery-confidence" title="Hur säkert vi hittar en bra matchning på Freesound"></div>
 
-      <div class="mystery-card__audio">
-        <button class="btn btn--secondary" id="play-audio">🔊 Spela ljud</button>
-        <a class="fs-link" id="freesound-link" href="#" target="_blank" rel="noopener">🔎 Sök riktigt ljud på Freesound</a>
+          <div class="mystery-card__audio">
+            <button class="btn btn--secondary" id="play-audio">🔊 Spela ljud</button>
+            <a class="fs-link fs-link--button" id="freesound-link" href="#" target="_blank" rel="noopener">🔗 Lyssna på ljudet</a>
+          </div>
+          <p class="audio-note" id="audio-note"></p>
+        </div>
+        <div class="flip-card__face flip-card__face--back">
+          <div class="flip-card__badge">FACIT</div>
+          <div class="flip-card__year" id="mystery-reveal-year">—</div>
+          <div class="flip-card__name" id="mystery-reveal-name">—</div>
+        </div>
       </div>
-      <p class="audio-note" id="audio-note"></p>
     </div>
 
     <div class="timeline-wrap">
@@ -118,7 +127,6 @@
 
     <div class="reveal-panel" id="reveal-panel" hidden>
       <div class="reveal-panel__result" id="reveal-result"></div>
-      <div class="reveal-panel__card" id="reveal-card"></div>
       <button class="btn btn--primary" id="next-turn">Nästa spelare ➜</button>
     </div>
   </section>
@@ -131,15 +139,24 @@
         <span>Ljud: <strong id="quiz-round">0</strong> / <span id="quiz-total">0</span></span>
       </div>
 
-      <div class="mystery-card" id="quiz-card">
-        <div class="mystery-card__badge">GISSA ÅRET</div>
-        <p class="mystery-card__desc" id="quiz-desc">—</p>
-        <div class="mystery-card__flags" id="quiz-flags"></div>
-        <div class="mystery-card__audio">
-          <button class="btn btn--secondary" id="quiz-play-audio">🔊 Spela ljud</button>
-          <a class="fs-link" id="quiz-freesound-link" href="#" target="_blank" rel="noopener">🔎 Sök riktigt ljud på Freesound</a>
+      <div class="flip-card" id="quiz-flipcard">
+        <div class="flip-card__inner" id="quiz-flipcard-inner">
+          <div class="flip-card__face flip-card__face--front mystery-card">
+            <div class="mystery-card__badge">GISSA ÅRET</div>
+            <p class="mystery-card__desc" id="quiz-desc">—</p>
+            <div class="mystery-card__flags" id="quiz-flags"></div>
+            <div class="mystery-card__audio">
+              <button class="btn btn--secondary" id="quiz-play-audio">🔊 Spela ljud</button>
+              <a class="fs-link fs-link--button" id="quiz-freesound-link" href="#" target="_blank" rel="noopener">🔗 Lyssna på ljudet</a>
+            </div>
+            <p class="audio-note" id="quiz-audio-note"></p>
+          </div>
+          <div class="flip-card__face flip-card__face--back">
+            <div class="flip-card__badge">FACIT</div>
+            <div class="flip-card__year" id="quiz-reveal-year">—</div>
+            <div class="flip-card__name" id="quiz-reveal-name">—</div>
+          </div>
         </div>
-        <p class="audio-note" id="quiz-audio-note"></p>
       </div>
 
       <div class="quiz-guess" id="quiz-guess-area">
@@ -150,7 +167,6 @@
 
       <div class="reveal-panel" id="quiz-reveal-panel" hidden>
         <div class="reveal-panel__result" id="quiz-reveal-result"></div>
-        <div class="reveal-panel__card" id="quiz-reveal-card"></div>
         <button class="btn btn--primary" id="quiz-next">Nästa ljud ➜</button>
         <button class="btn btn--ghost" id="quiz-finish">Avsluta rundan</button>
       </div>
