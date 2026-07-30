@@ -38,9 +38,9 @@ och varje ljudkort har en direktlänk till en färdig Freesound-sökning.
 
 Om en fil läggs i `data/audio/<id>.mp3` (id:t finns i `data/catalog.json`,
 t.ex. `1874-skrivmaskinens-returklocka.mp3`) spelas den upp automatiskt —
-ingen kodändring krävs. Saknas filen faller appen tillbaka på ett syntetiskt
-"mysteriumljud" (Web Audio API), unikt men deterministiskt per kort, så
-spelet fortfarande känns levande under tiden riktiga klipp samlas in.
+ingen kodändring krävs. Saknas filen spelas inget alls; kortet visar istället
+"🔇 Ingen inspelning uppladdad ännu" och länken till Freesound-sökningen.
+Appen hittar aldrig på ett eget ljud som inte är det riktiga.
 
 Fem ljud (märkta 🎙️ "Spela in själv" i katalogen, t.ex. Nokia 3310:ans
 knapptryck och SL:s stämpelmaskin) finns inte i något ljudbibliotek och

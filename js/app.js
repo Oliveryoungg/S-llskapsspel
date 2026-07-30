@@ -224,6 +224,7 @@
       descEl: document.getElementById("quiz-desc"),
       flagsEl: document.getElementById("quiz-flags"),
       linkEl: document.getElementById("quiz-freesound-link"),
+      noteEl: document.getElementById("quiz-audio-note"),
     });
     const slider = document.getElementById("quiz-slider");
     slider.value = 1945;
@@ -272,8 +273,8 @@
       e.preventDefault();
       alert(
         "Riktiga ljudfiler saknas ännu i demot. Om en fil finns på data/audio/<id>.mp3 spelas den upp. " +
-          "Annars hörs ett syntetiskt platshållarljud, unikt per kort, tills någon laddat ner rätt klipp från " +
-          "Freesound (CC0) eller spelat in det själv."
+          "Saknas filen spelas inget alls — sök upp rätt klipp på Freesound (CC0) via länken, eller spela in " +
+          "det själv, och lägg filen i data/audio/."
       );
     });
 
@@ -302,7 +303,7 @@
           document.getElementById("audio-note").textContent =
             src === "file"
               ? "🔊 Spelar riktig inspelning"
-              : "🔊 Syntetiskt platshållarljud — riktig inspelning saknas ännu, se sökordslänken";
+              : "🔇 Ingen inspelning uppladdad ännu — sök på Freesound eller spela in själv";
         },
       });
     });
@@ -314,7 +315,14 @@
       document.getElementById("quiz-slider-out").textContent = quizSlider.value;
     });
     document.getElementById("quiz-play-audio").addEventListener("click", () => {
-      NostalgiAudio.play(quizGame.current());
+      NostalgiAudio.play(quizGame.current(), {
+        onSource: (src) => {
+          document.getElementById("quiz-audio-note").textContent =
+            src === "file"
+              ? "🔊 Spelar riktig inspelning"
+              : "🔇 Ingen inspelning uppladdad ännu — sök på Freesound eller spela in själv";
+        },
+      });
     });
     document.getElementById("quiz-submit").addEventListener("click", handleQuizSubmit);
     document.getElementById("quiz-next").addEventListener("click", () => {
