@@ -1,0 +1,2316 @@
+[
+  {
+    "id": "1874-skrivmaskinens-returklocka",
+    "year": 1874,
+    "decade": 1870,
+    "name": "Skrivmaskinens returklocka",
+    "confidence": 5,
+    "flags": [],
+    "description": "Klockan som pinglar och vagnen som slås tillbaka",
+    "searchTerms": [
+      "typewriter bell",
+      "typewriter carriage",
+      "typewriter ding"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1874-skrivmaskinens-returklocka.mp3"
+  },
+  {
+    "id": "1878-telefonens-ringklocka",
+    "year": 1878,
+    "decade": 1870,
+    "name": "Telefonens ringklocka",
+    "confidence": 5,
+    "flags": [],
+    "description": "Den mekaniska dubbelringningen från två metallklockor",
+    "searchTerms": [
+      "telephone bell",
+      "old phone ring",
+      "rotary phone ring"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1878-telefonens-ringklocka.mp3"
+  },
+  {
+    "id": "1879-mekaniska-kassaapparaten",
+    "year": 1879,
+    "decade": 1870,
+    "name": "Mekaniska kassaapparaten",
+    "confidence": 4,
+    "flags": [],
+    "description": "Klirret plus lådan som slås ut med en smäll",
+    "searchTerms": [
+      "cash register",
+      "register bell",
+      "till drawer"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1879-mekaniska-kassaapparaten.mp3"
+  },
+  {
+    "id": "1895-enarmade-banditen",
+    "year": 1895,
+    "decade": 1890,
+    "name": "Enarmade banditen",
+    "confidence": 5,
+    "flags": [],
+    "description": "Myntskörden som rasslar ner i tråget vid vinst",
+    "searchTerms": [
+      "slot machine",
+      "jackpot coins",
+      "slot machine win"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1895-enarmade-banditen.mp3"
+  },
+  {
+    "id": "1895-filmprojektorn",
+    "year": 1895,
+    "decade": 1890,
+    "name": "Filmprojektorn",
+    "confidence": 4,
+    "flags": [],
+    "description": "Det jämna knattret när filmen matas genom bildfönstret",
+    "searchTerms": [
+      "film projector",
+      "projector clatter",
+      "8mm projector"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1895-filmprojektorn.mp3"
+  },
+  {
+    "id": "1908-ahooga-bilhornet",
+    "year": 1908,
+    "decade": 1900,
+    "name": "Ahooga-bilhornet",
+    "confidence": 5,
+    "flags": [],
+    "description": "Det klagande tvåtonshornet",
+    "searchTerms": [
+      "ahooga horn",
+      "klaxon horn",
+      "vintage car horn"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1908-ahooga-bilhornet.mp3"
+  },
+  {
+    "id": "1919-nummerskivan",
+    "year": 1919,
+    "decade": 1910,
+    "name": "Nummerskivan",
+    "confidence": 5,
+    "flags": [],
+    "description": "Skivan som snurrar tillbaka med sitt tickande",
+    "searchTerms": [
+      "rotary dial",
+      "rotary phone dial",
+      "phone dial"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1919-nummerskivan.mp3"
+  },
+  {
+    "id": "1920-radions-stationssokning",
+    "year": 1920,
+    "decade": 1920,
+    "name": "Radions stationssökning",
+    "confidence": 5,
+    "flags": [],
+    "description": "Bruset som glider och stannar när en station hittas",
+    "searchTerms": [
+      "radio tuning",
+      "am radio static",
+      "radio dial"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1920-radions-stationssokning.mp3"
+  },
+  {
+    "id": "1921-brodrosten",
+    "year": 1921,
+    "decade": 1920,
+    "name": "Brödrosten",
+    "confidence": 4,
+    "flags": [],
+    "description": "Fjädern som smäller upp och brödet som studsar",
+    "searchTerms": [
+      "toaster pop",
+      "toaster",
+      "pop up toaster"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1921-brodrosten.mp3"
+  },
+  {
+    "id": "1931-elektriska-rakapparaten",
+    "year": 1931,
+    "decade": 1930,
+    "name": "Elektriska rakapparaten",
+    "confidence": 5,
+    "flags": [],
+    "description": "Det snabba surrande skäggsurret",
+    "searchTerms": [
+      "electric shaver",
+      "electric razor",
+      "shaver buzz"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1931-elektriska-rakapparaten.mp3"
+  },
+  {
+    "id": "1931-flipperspelet",
+    "year": 1931,
+    "decade": 1930,
+    "name": "Flipperspelet",
+    "confidence": 4,
+    "flags": [],
+    "description": "Bumperns smäll och klockans pling",
+    "searchTerms": [
+      "pinball",
+      "pinball machine",
+      "pinball bell"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1931-flipperspelet.mp3"
+  },
+  {
+    "id": "1936-elektriska-dorrklockan",
+    "year": 1936,
+    "decade": 1930,
+    "name": "Elektriska dörrklockan",
+    "confidence": 5,
+    "flags": [],
+    "description": "Det klassiska ding-dong i två toner",
+    "searchTerms": [
+      "doorbell",
+      "ding dong",
+      "door chime"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1936-elektriska-dorrklockan.mp3"
+  },
+  {
+    "id": "1937-tvattmaskinen",
+    "year": 1937,
+    "decade": 1930,
+    "name": "Tvättmaskinen",
+    "confidence": 3,
+    "flags": [],
+    "description": "Trumman som centrifugerar och tvätten som slår runt",
+    "searchTerms": [
+      "washing machine",
+      "washer spin",
+      "laundry machine"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1937-tvattmaskinen.mp3"
+  },
+  {
+    "id": "1939-jetmotorn",
+    "year": 1939,
+    "decade": 1930,
+    "name": "Jetmotorn",
+    "confidence": 5,
+    "flags": [],
+    "description": "Turbinen som varvar upp till startljud",
+    "searchTerms": [
+      "jet engine",
+      "jet takeoff",
+      "jet startup"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1939-jetmotorn.mp3"
+  },
+  {
+    "id": "1939-helikopterrotorn",
+    "year": 1939,
+    "decade": 1930,
+    "name": "Helikopterrotorn",
+    "confidence": 5,
+    "flags": [],
+    "description": "Rotorbladens tunga slag som accelererar",
+    "searchTerms": [
+      "helicopter",
+      "helicopter rotor",
+      "helicopter startup"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1939-helikopterrotorn.mp3"
+  },
+  {
+    "id": "1946-jukeboxen",
+    "year": 1946,
+    "decade": 1940,
+    "name": "Jukeboxen",
+    "confidence": 4,
+    "flags": [],
+    "description": "Mekaniken som väljer skivan och lägger den på tallriken",
+    "searchTerms": [
+      "jukebox",
+      "jukebox mechanism",
+      "record select"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1946-jukeboxen.mp3"
+  },
+  {
+    "id": "1946-vespan",
+    "year": 1946,
+    "decade": 1940,
+    "name": "Vespan",
+    "confidence": 4,
+    "flags": [],
+    "description": "Det puttrande tvåtaktsljudet på tomgång",
+    "searchTerms": [
+      "scooter",
+      "vespa",
+      "moped idle"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1946-vespan.mp3"
+  },
+  {
+    "id": "1948-vinylskivan",
+    "year": 1948,
+    "decade": 1940,
+    "name": "Vinylskivan",
+    "confidence": 5,
+    "flags": [],
+    "description": "Nålen som sätts ner och knastret innan första spåret",
+    "searchTerms": [
+      "vinyl crackle",
+      "needle drop",
+      "record player"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1948-vinylskivan.mp3"
+  },
+  {
+    "id": "1948-espressomaskinen",
+    "year": 1948,
+    "decade": 1940,
+    "name": "Espressomaskinen",
+    "confidence": 3,
+    "flags": [],
+    "description": "Pumpen som väser och den första strålen som pressas ut",
+    "searchTerms": [
+      "espresso machine",
+      "espresso steam",
+      "coffee machine hiss"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1948-espressomaskinen.mp3"
+  },
+  {
+    "id": "1950-personsokaren",
+    "year": 1950,
+    "decade": 1950,
+    "name": "Personsökaren",
+    "confidence": 4,
+    "flags": [],
+    "description": "Det skarpa upprepade pipet från bältet",
+    "searchTerms": [
+      "pager",
+      "beeper",
+      "pager beep"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1950-personsokaren.mp3"
+  },
+  {
+    "id": "1950-sprayburken",
+    "year": 1950,
+    "decade": 1950,
+    "name": "Sprayburken",
+    "confidence": 4,
+    "flags": [],
+    "description": "Kulan som skramlar och strålen som väser",
+    "searchTerms": [
+      "spray can",
+      "aerosol",
+      "spray paint can"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1950-sprayburken.mp3"
+  },
+  {
+    "id": "1954-kulspetspennan",
+    "year": 1954,
+    "decade": 1950,
+    "name": "Kulspetspennan",
+    "confidence": 5,
+    "flags": [],
+    "description": "Klicket när spetsen fälls ut",
+    "searchTerms": [
+      "pen click",
+      "ballpoint click",
+      "click pen"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1954-kulspetspennan.mp3"
+  },
+  {
+    "id": "1955-elvattenkokaren",
+    "year": 1955,
+    "decade": 1950,
+    "name": "Elvattenkokaren",
+    "confidence": 4,
+    "flags": [],
+    "description": "Klicket när kokaren slår av och det rullande sjudandet",
+    "searchTerms": [
+      "electric kettle",
+      "kettle boil",
+      "kettle click"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1955-elvattenkokaren.mp3"
+  },
+  {
+    "id": "1955-kolsyremaskinen",
+    "year": 1955,
+    "decade": 1950,
+    "name": "Kolsyremaskinen",
+    "confidence": 3,
+    "flags": [],
+    "description": "Gasen som väser in i flaskan under tryck",
+    "searchTerms": [
+      "soda fizz",
+      "sodastream",
+      "carbonation hiss"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1955-kolsyremaskinen.mp3"
+  },
+  {
+    "id": "1956-elektriska-konservoppnaren",
+    "year": 1956,
+    "decade": 1950,
+    "name": "Elektriska konservöppnaren",
+    "confidence": 4,
+    "flags": [],
+    "description": "Motorn som maler sig runt burkkanten",
+    "searchTerms": [
+      "can opener",
+      "electric can opener"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1956-elektriska-konservoppnaren.mp3"
+  },
+  {
+    "id": "1957-bilbanan",
+    "year": 1957,
+    "decade": 1950,
+    "name": "Bilbanan",
+    "confidence": 3,
+    "flags": [],
+    "description": "Det gnisslande surret när bilen rusar runt banan",
+    "searchTerms": [
+      "slot car",
+      "scalextric",
+      "toy car motor"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1957-bilbanan.mp3"
+  },
+  {
+    "id": "1958-kardborrebandet",
+    "year": 1958,
+    "decade": 1950,
+    "name": "Kardborrebandet",
+    "confidence": 4,
+    "flags": [],
+    "description": "Det raspande ljudet när bandet dras isär",
+    "searchTerms": [
+      "velcro",
+      "velcro rip",
+      "hook loop"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1958-kardborrebandet.mp3"
+  },
+  {
+    "id": "1958-flygplanets-kabinping",
+    "year": 1958,
+    "decade": 1950,
+    "name": "Flygplanets kabinping",
+    "confidence": 4,
+    "flags": [
+      "verifyYear"
+    ],
+    "description": "Det milda bing när skylten 'spänn fast bältet' slås av",
+    "searchTerms": [
+      "cabin chime",
+      "airplane chime",
+      "seatbelt chime"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1958-flygplanets-kabinping.mp3"
+  },
+  {
+    "id": "1960-eltandborsten",
+    "year": 1960,
+    "decade": 1960,
+    "name": "Eltandborsten",
+    "confidence": 5,
+    "flags": [],
+    "description": "Det höga surret mot tandemaljen",
+    "searchTerms": [
+      "electric toothbrush",
+      "toothbrush buzz"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1960-eltandborsten.mp3"
+  },
+  {
+    "id": "1960-bubbelplasten",
+    "year": 1960,
+    "decade": 1960,
+    "name": "Bubbelplasten",
+    "confidence": 5,
+    "flags": [],
+    "description": "Bubblorna som poppar när man klämmer dem",
+    "searchTerms": [
+      "bubble wrap",
+      "bubble wrap pop",
+      "popping bubble"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1960-bubbelplasten.mp3"
+  },
+  {
+    "id": "1961-diabildsprojektorn",
+    "year": 1961,
+    "decade": 1960,
+    "name": "Diabildsprojektorn",
+    "confidence": 4,
+    "flags": [],
+    "description": "Det mekaniska klonket när karusellen matar fram nästa bild",
+    "searchTerms": [
+      "slide projector",
+      "carousel projector",
+      "slide advance"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1961-diabildsprojektorn.mp3"
+  },
+  {
+    "id": "1962-laskburken",
+    "year": 1962,
+    "decade": 1960,
+    "name": "Läskburken",
+    "confidence": 5,
+    "flags": [],
+    "description": "Fliken som knäpper och kolsyran som fräser",
+    "searchTerms": [
+      "soda can",
+      "can opening",
+      "can crack fizz"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1962-laskburken.mp3"
+  },
+  {
+    "id": "1963-backningssignalen",
+    "year": 1963,
+    "decade": 1960,
+    "name": "Backningssignalen",
+    "confidence": 5,
+    "flags": [],
+    "description": "Det entoniga pip-pip-pip när ett tungt fordon backar",
+    "searchTerms": [
+      "reversing beep",
+      "backup beeper",
+      "truck reverse"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1963-backningssignalen.mp3"
+  },
+  {
+    "id": "1963-knapptelefonens-toner",
+    "year": 1963,
+    "decade": 1960,
+    "name": "Knapptelefonens toner",
+    "confidence": 5,
+    "flags": [],
+    "description": "De klingande tvåtonssignalerna vid varje siffra",
+    "searchTerms": [
+      "touch tone",
+      "dtmf",
+      "phone dial tones"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1963-knapptelefonens-toner.mp3"
+  },
+  {
+    "id": "1963-kompaktkassetten",
+    "year": 1963,
+    "decade": 1960,
+    "name": "Kompaktkassetten",
+    "confidence": 5,
+    "flags": [],
+    "description": "Play-knappens tunga mekaniska klonk när bandet greppar",
+    "searchTerms": [
+      "cassette play",
+      "cassette deck",
+      "tape button"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1963-kompaktkassetten.mp3"
+  },
+  {
+    "id": "1964-elektriska-kokskniven",
+    "year": 1964,
+    "decade": 1960,
+    "name": "Elektriska kökskniven",
+    "confidence": 4,
+    "flags": [],
+    "description": "Bladen som sågar fram och tillbaka",
+    "searchTerms": [
+      "electric knife",
+      "carving knife"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1964-elektriska-kokskniven.mp3"
+  },
+  {
+    "id": "1965-brandvarnaren",
+    "year": 1965,
+    "decade": 1960,
+    "name": "Brandvarnaren",
+    "confidence": 5,
+    "flags": [],
+    "description": "Det gälla, upprepade pipet vid lågt batteri",
+    "searchTerms": [
+      "smoke detector",
+      "smoke alarm",
+      "detector chirp"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1965-brandvarnaren.mp3"
+  },
+  {
+    "id": "1965-8-sparsbandet",
+    "year": 1965,
+    "decade": 1960,
+    "name": "8-spårsbandet",
+    "confidence": 4,
+    "flags": [],
+    "description": "Klicket när kassetten byter programspår mitt i låten",
+    "searchTerms": [
+      "8 track",
+      "eight track",
+      "track change"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1965-8-sparsbandet.mp3"
+  },
+  {
+    "id": "1967-mikrovagsugnen",
+    "year": 1967,
+    "decade": 1960,
+    "name": "Mikrovågsugnen",
+    "confidence": 5,
+    "flags": [],
+    "description": "De tre pipen när tiden är slut",
+    "searchTerms": [
+      "microwave beep",
+      "microwave done",
+      "microwave ding"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1967-mikrovagsugnen.mp3"
+  },
+  {
+    "id": "1967-uttagsautomaten",
+    "year": 1967,
+    "decade": 1960,
+    "name": "Uttagsautomaten",
+    "confidence": 5,
+    "flags": [
+      "swedish"
+    ],
+    "description": "Sedelräknaren som matar ut sedlarna genom luckan",
+    "searchTerms": [
+      "atm",
+      "cash machine",
+      "atm dispense"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1967-uttagsautomaten.mp3"
+  },
+  {
+    "id": "1968-metalldetektorn",
+    "year": 1968,
+    "decade": 1960,
+    "name": "Metalldetektorn",
+    "confidence": 5,
+    "flags": [],
+    "description": "Larmet när någon passerar bågen",
+    "searchTerms": [
+      "metal detector",
+      "detector beep",
+      "security scanner"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1968-metalldetektorn.mp3"
+  },
+  {
+    "id": "1968-kaffebryggaren",
+    "year": 1968,
+    "decade": 1960,
+    "name": "Kaffebryggaren",
+    "confidence": 5,
+    "flags": [
+      "verifyYear"
+    ],
+    "description": "Vattnet som kluckar och fräser genom bryggaren",
+    "searchTerms": [
+      "coffee maker",
+      "drip coffee",
+      "coffee brewing"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1968-kaffebryggaren.mp3"
+  },
+  {
+    "id": "1970-hartorken",
+    "year": 1970,
+    "decade": 1970,
+    "name": "Hårtorken",
+    "confidence": 4,
+    "flags": [],
+    "description": "Motorns surr och luftströmmen som väser",
+    "searchTerms": [
+      "hair dryer",
+      "blow dryer",
+      "hairdryer"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1970-hartorken.mp3"
+  },
+  {
+    "id": "1970-farg-tv-n",
+    "year": 1970,
+    "decade": 1970,
+    "name": "Färg-TV:n",
+    "confidence": 5,
+    "flags": [
+      "swedish"
+    ],
+    "description": "Knäppet och bildrörets stigande vinande när TV:n slås på",
+    "searchTerms": [
+      "crt tv on",
+      "tv power on",
+      "old tv switch"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1970-farg-tv-n.mp3"
+  },
+  {
+    "id": "1970-matrisskrivaren",
+    "year": 1970,
+    "decade": 1970,
+    "name": "Matrisskrivaren",
+    "confidence": 5,
+    "flags": [],
+    "description": "Det skärande gnisslet när skrivhuvudet far fram och tillbaka",
+    "searchTerms": [
+      "dot matrix",
+      "dot matrix printer",
+      "matrix printer"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1970-matrisskrivaren.mp3"
+  },
+  {
+    "id": "1971-fickraknaren",
+    "year": 1971,
+    "decade": 1970,
+    "name": "Fickräknaren",
+    "confidence": 4,
+    "flags": [],
+    "description": "Knapptryckens hårda plastklick",
+    "searchTerms": [
+      "calculator",
+      "calculator button",
+      "calculator beep"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1971-fickraknaren.mp3"
+  },
+  {
+    "id": "1971-telefonsvararen",
+    "year": 1971,
+    "decade": 1970,
+    "name": "Telefonsvararen",
+    "confidence": 5,
+    "flags": [],
+    "description": "Pipet efter meddelandet och bandet som spolar tillbaka",
+    "searchTerms": [
+      "answering machine",
+      "answering machine beep",
+      "tape beep"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1971-telefonsvararen.mp3"
+  },
+  {
+    "id": "1972-polaroid-sx-70",
+    "year": 1972,
+    "decade": 1970,
+    "name": "Polaroid SX-70",
+    "confidence": 5,
+    "flags": [],
+    "description": "Motorn som pressar ut bilden genom valsarna",
+    "searchTerms": [
+      "polaroid",
+      "instant camera",
+      "polaroid eject"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1972-polaroid-sx-70.mp3"
+  },
+  {
+    "id": "1972-digitalklockan",
+    "year": 1972,
+    "decade": 1970,
+    "name": "Digitalklockan",
+    "confidence": 5,
+    "flags": [],
+    "description": "Det gälla timsignalpipet",
+    "searchTerms": [
+      "digital watch",
+      "watch alarm",
+      "watch beep"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1972-digitalklockan.mp3"
+  },
+  {
+    "id": "1972-bilbaltesvarnaren",
+    "year": 1972,
+    "decade": 1970,
+    "name": "Bilbältesvarnaren",
+    "confidence": 5,
+    "flags": [],
+    "description": "Den envisa summern tills bältet klickar i",
+    "searchTerms": [
+      "seatbelt warning",
+      "car buzzer",
+      "belt chime"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1972-bilbaltesvarnaren.mp3"
+  },
+  {
+    "id": "1972-tv-spelets-paddel",
+    "year": 1972,
+    "decade": 1970,
+    "name": "TV-spelets paddel",
+    "confidence": 4,
+    "flags": [],
+    "description": "Rattens hårda klick när den vrids i ändläget",
+    "searchTerms": [
+      "knob click",
+      "controller knob",
+      "dial click"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1972-tv-spelets-paddel.mp3"
+  },
+  {
+    "id": "1973-sl-s-stampelmaskin",
+    "year": 1973,
+    "decade": 1970,
+    "name": "SL:s stämpelmaskin",
+    "confidence": 4,
+    "flags": [
+      "swedish"
+    ],
+    "description": "Stämpelns hårda klonk mot kortet",
+    "searchTerms": [
+      "ticket stamp",
+      "ticket punch",
+      "stamp clunk"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1973-sl-s-stampelmaskin.mp3"
+  },
+  {
+    "id": "1973-matberedaren",
+    "year": 1973,
+    "decade": 1970,
+    "name": "Matberedaren",
+    "confidence": 5,
+    "flags": [],
+    "description": "Motorn som mullrar och knivarna som hackar",
+    "searchTerms": [
+      "food processor",
+      "blender",
+      "food chopper"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1973-matberedaren.mp3"
+  },
+  {
+    "id": "1974-streckkoden",
+    "year": 1974,
+    "decade": 1970,
+    "name": "Streckkoden",
+    "confidence": 5,
+    "flags": [],
+    "description": "Kassans korta pip när skannern läser av koden",
+    "searchTerms": [
+      "barcode scanner",
+      "barcode beep",
+      "checkout scanner"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1974-streckkoden.mp3"
+  },
+  {
+    "id": "1975-tv-spelet-hemma",
+    "year": 1975,
+    "decade": 1970,
+    "name": "TV-spelet hemma",
+    "confidence": 5,
+    "flags": [],
+    "description": "Det torra pipet när bollen studsar mot racketen",
+    "searchTerms": [
+      "pong",
+      "retro game beep",
+      "blip"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1975-tv-spelet-hemma.mp3"
+  },
+  {
+    "id": "1975-betamax",
+    "year": 1975,
+    "decade": 1970,
+    "name": "Betamax",
+    "confidence": 4,
+    "flags": [],
+    "description": "Kassetten som glider in i luckan",
+    "searchTerms": [
+      "vcr insert",
+      "betamax",
+      "tape insert"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1975-betamax.mp3"
+  },
+  {
+    "id": "1976-vhs",
+    "year": 1976,
+    "decade": 1970,
+    "name": "VHS",
+    "confidence": 5,
+    "flags": [],
+    "description": "Motorn som drar in kassetten och låser fast den",
+    "searchTerms": [
+      "vhs insert",
+      "vcr insert",
+      "vhs tape"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1976-vhs.mp3"
+  },
+  {
+    "id": "1976-boomboxen",
+    "year": 1976,
+    "decade": 1970,
+    "name": "Boomboxen",
+    "confidence": 5,
+    "flags": [],
+    "description": "Kassettknapparnas rad av tunga mekaniska klonk",
+    "searchTerms": [
+      "boombox",
+      "cassette buttons",
+      "tape deck buttons"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1976-boomboxen.mp3"
+  },
+  {
+    "id": "1977-atari-2600",
+    "year": 1977,
+    "decade": 1970,
+    "name": "Atari 2600",
+    "confidence": 4,
+    "flags": [],
+    "description": "Joystickens hårda mikrobrytarklick",
+    "searchTerms": [
+      "joystick click",
+      "atari joystick",
+      "microswitch click"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1977-atari-2600.mp3"
+  },
+  {
+    "id": "1977-magnetkameran",
+    "year": 1977,
+    "decade": 1970,
+    "name": "Magnetkameran",
+    "confidence": 5,
+    "flags": [],
+    "description": "Det hårda, rytmiska knackandet inifrån tunneln",
+    "searchTerms": [
+      "mri scanner",
+      "mri knocking",
+      "mri machine"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1977-magnetkameran.mp3"
+  },
+  {
+    "id": "1978-arkadmyntet",
+    "year": 1978,
+    "decade": 1970,
+    "name": "Arkadmyntet",
+    "confidence": 5,
+    "flags": [
+      "verifyYear"
+    ],
+    "description": "Myntet som ramlar genom mekanismen och godkänns",
+    "searchTerms": [
+      "arcade coin",
+      "coin insert",
+      "arcade machine"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1978-arkadmyntet.mp3"
+  },
+  {
+    "id": "1979-walkman",
+    "year": 1979,
+    "decade": 1970,
+    "name": "Walkman",
+    "confidence": 5,
+    "flags": [],
+    "description": "Kassettluckans lätta plastklick när den snäpper igen",
+    "searchTerms": [
+      "walkman",
+      "cassette door",
+      "walkman click"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1979-walkman.mp3"
+  },
+  {
+    "id": "1980-pusselkuben",
+    "year": 1980,
+    "decade": 1980,
+    "name": "Pusselkuben",
+    "confidence": 5,
+    "flags": [],
+    "description": "Det torra klicket när ett lager vrids",
+    "searchTerms": [
+      "rubik cube",
+      "cube turning",
+      "puzzle cube"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1980-pusselkuben.mp3"
+  },
+  {
+    "id": "1980-faxen",
+    "year": 1980,
+    "decade": 1980,
+    "name": "Faxen",
+    "confidence": 5,
+    "flags": [],
+    "description": "Handskakningens tjutande toner innan sändningen börjar",
+    "searchTerms": [
+      "fax machine",
+      "fax tone",
+      "fax handshake"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1980-faxen.mp3"
+  },
+  {
+    "id": "1980-sladdlosa-telefonen",
+    "year": 1980,
+    "decade": 1980,
+    "name": "Sladdlösa telefonen",
+    "confidence": 4,
+    "flags": [],
+    "description": "Basstationens pip när luren sätts tillbaka",
+    "searchTerms": [
+      "cordless phone",
+      "cordless phone beep",
+      "phone base"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1980-sladdlosa-telefonen.mp3"
+  },
+  {
+    "id": "1980-blinkersrelaet",
+    "year": 1980,
+    "decade": 1980,
+    "name": "Blinkersreläet",
+    "confidence": 5,
+    "flags": [
+      "verifyYear"
+    ],
+    "description": "Det mekaniska reläets torra tick-tack",
+    "searchTerms": [
+      "turn signal",
+      "blinker",
+      "indicator click"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1980-blinkersrelaet.mp3"
+  },
+  {
+    "id": "1981-3-5-tumsdisketten",
+    "year": 1981,
+    "decade": 1980,
+    "name": "3,5-tumsdisketten",
+    "confidence": 5,
+    "flags": [],
+    "description": "Enheten som knastrar och söker sig fram över skivan",
+    "searchTerms": [
+      "floppy disk",
+      "floppy drive",
+      "disk drive"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1981-3-5-tumsdisketten.mp3"
+  },
+  {
+    "id": "1981-datorns-startpip",
+    "year": 1981,
+    "decade": 1980,
+    "name": "Datorns startpip",
+    "confidence": 4,
+    "flags": [
+      "verifyYear"
+    ],
+    "description": "Det korta pipet från moderkortet vid uppstart",
+    "searchTerms": [
+      "computer beep",
+      "bios beep",
+      "pc startup beep"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1981-datorns-startpip.mp3"
+  },
+  {
+    "id": "1981-mikropopcornen",
+    "year": 1981,
+    "decade": 1980,
+    "name": "Mikropopcornen",
+    "confidence": 5,
+    "flags": [],
+    "description": "Kornen som poppar allt tätare och sedan glesnar",
+    "searchTerms": [
+      "popcorn popping",
+      "microwave popcorn",
+      "popcorn"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1981-mikropopcornen.mp3"
+  },
+  {
+    "id": "1982-cd-skivan",
+    "year": 1982,
+    "decade": 1980,
+    "name": "CD-skivan",
+    "confidence": 5,
+    "flags": [],
+    "description": "Skivan som varvar upp bakom luckan innan första spåret",
+    "searchTerms": [
+      "cd player",
+      "cd tray",
+      "cd spin up"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1982-cd-skivan.mp3"
+  },
+  {
+    "id": "1982-commodore-64",
+    "year": 1982,
+    "decade": 1980,
+    "name": "Commodore 64",
+    "confidence": 5,
+    "flags": [],
+    "description": "Datakassetten som skriker in programmet under flera minuter",
+    "searchTerms": [
+      "data tape loading",
+      "datasette",
+      "tape loading"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1982-commodore-64.mp3"
+  },
+  {
+    "id": "1982-centrallaset",
+    "year": 1982,
+    "decade": 1980,
+    "name": "Centrallåset",
+    "confidence": 5,
+    "flags": [],
+    "description": "Det korta pipet och låskolvarnas samtidiga klonk",
+    "searchTerms": [
+      "central locking",
+      "car lock chirp",
+      "car lock"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1982-centrallaset.mp3"
+  },
+  {
+    "id": "1982-billarmet",
+    "year": 1982,
+    "decade": 1980,
+    "name": "Billarmet",
+    "confidence": 5,
+    "flags": [],
+    "description": "Sirenens stigande och fallande tjut mitt i natten",
+    "searchTerms": [
+      "car alarm",
+      "car alarm siren",
+      "alarm siren"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1982-billarmet.mp3"
+  },
+  {
+    "id": "1983-videokameran",
+    "year": 1983,
+    "decade": 1980,
+    "name": "Videokameran",
+    "confidence": 4,
+    "flags": [],
+    "description": "Bandmotorn som startar när inspelningen börjar",
+    "searchTerms": [
+      "camcorder",
+      "camcorder motor",
+      "video camera"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1983-videokameran.mp3"
+  },
+  {
+    "id": "1983-kabel-tv-n",
+    "year": 1983,
+    "decade": 1980,
+    "name": "Kabel-TV:n",
+    "confidence": 4,
+    "flags": [
+      "swedish"
+    ],
+    "description": "Dekodern som byter kanal med ett klick",
+    "searchTerms": [
+      "channel change",
+      "set top box",
+      "tv box beep"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1983-kabel-tv-n.mp3"
+  },
+  {
+    "id": "1984-pant-pa-burk",
+    "year": 1984,
+    "decade": 1980,
+    "name": "Pant på burk",
+    "confidence": 5,
+    "flags": [
+      "swedish"
+    ],
+    "description": "Maskinen som sväljer burken, krossar och skriver ut kvittot",
+    "searchTerms": [],
+    "recordYourself": true,
+    "audio": "data/audio/1984-pant-pa-burk.mp3"
+  },
+  {
+    "id": "1984-discman",
+    "year": 1984,
+    "decade": 1980,
+    "name": "Discman",
+    "confidence": 5,
+    "flags": [],
+    "description": "CD:n som hoppar och stammar när du går för fort",
+    "searchTerms": [
+      "cd skip",
+      "cd skipping",
+      "cd player skip"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1984-discman.mp3"
+  },
+  {
+    "id": "1984-laserskrivaren",
+    "year": 1984,
+    "decade": 1980,
+    "name": "Laserskrivaren",
+    "confidence": 5,
+    "flags": [],
+    "description": "Fixeringsenheten som surrar igång och valsarna som drar",
+    "searchTerms": [
+      "laser printer",
+      "printer warm up",
+      "printer printing"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1984-laserskrivaren.mp3"
+  },
+  {
+    "id": "1984-klappstrombrytaren",
+    "year": 1984,
+    "decade": 1980,
+    "name": "Klappströmbrytaren",
+    "confidence": 4,
+    "flags": [],
+    "description": "Två handklappningar följt av reläets klick",
+    "searchTerms": [
+      "clapper",
+      "clap switch",
+      "clap on off"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1984-klappstrombrytaren.mp3"
+  },
+  {
+    "id": "1985-mekaniska-tangentbordet",
+    "year": 1985,
+    "decade": 1980,
+    "name": "Mekaniska tangentbordet",
+    "confidence": 5,
+    "flags": [],
+    "description": "Tangenternas fjädrande, hårda anslag",
+    "searchTerms": [
+      "mechanical keyboard",
+      "keyboard typing",
+      "clicky keyboard"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1985-mekaniska-tangentbordet.mp3"
+  },
+  {
+    "id": "1985-cd-rom",
+    "year": 1985,
+    "decade": 1980,
+    "name": "CD-ROM",
+    "confidence": 5,
+    "flags": [],
+    "description": "Enheten som accelererar upp till fullt varvtal med stigande ton",
+    "searchTerms": [
+      "cd rom",
+      "cd rom drive",
+      "cd drive spin"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1985-cd-rom.mp3"
+  },
+  {
+    "id": "1985-autofokuskameran",
+    "year": 1985,
+    "decade": 1980,
+    "name": "Autofokuskameran",
+    "confidence": 4,
+    "flags": [],
+    "description": "Objektivet som söker fokus och filmen som matas fram",
+    "searchTerms": [
+      "slr shutter",
+      "camera autofocus",
+      "film advance"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1985-autofokuskameran.mp3"
+  },
+  {
+    "id": "1986-trisslotten",
+    "year": 1986,
+    "decade": 1980,
+    "name": "Trisslotten",
+    "confidence": 5,
+    "flags": [
+      "swedish"
+    ],
+    "description": "Myntet som skrapar bort silverlacken",
+    "searchTerms": [],
+    "recordYourself": true,
+    "audio": "data/audio/1986-trisslotten.mp3"
+  },
+  {
+    "id": "1986-kapselkaffemaskinen",
+    "year": 1986,
+    "decade": 1980,
+    "name": "Kapselkaffemaskinen",
+    "confidence": 5,
+    "flags": [],
+    "description": "Kapseln som punkteras och pumpen som väser",
+    "searchTerms": [
+      "coffee capsule",
+      "espresso pump",
+      "coffee machine"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1986-kapselkaffemaskinen.mp3"
+  },
+  {
+    "id": "1986-engangskameran",
+    "year": 1986,
+    "decade": 1980,
+    "name": "Engångskameran",
+    "confidence": 4,
+    "flags": [],
+    "description": "Filmframmatningens surr och blixtens uppladdning",
+    "searchTerms": [
+      "disposable camera",
+      "film advance",
+      "camera wind"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1986-engangskameran.mp3"
+  },
+  {
+    "id": "1987-parkeringssensorn",
+    "year": 1987,
+    "decade": 1980,
+    "name": "Parkeringssensorn",
+    "confidence": 5,
+    "flags": [],
+    "description": "Pipen som blir tätare ju närmare hindret man kommer",
+    "searchTerms": [
+      "parking sensor",
+      "reverse beep",
+      "parking beep"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1987-parkeringssensorn.mp3"
+  },
+  {
+    "id": "1987-overheadprojektorn",
+    "year": 1987,
+    "decade": 1980,
+    "name": "Overheadprojektorn",
+    "confidence": 5,
+    "flags": [
+      "verifyYear"
+    ],
+    "description": "Det djupa fläktbruset och plasten som gnisslar mot glaset",
+    "searchTerms": [
+      "projector fan",
+      "overhead projector",
+      "fan hum"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1987-overheadprojektorn.mp3"
+  },
+  {
+    "id": "1989-game-boy",
+    "year": 1989,
+    "decade": 1980,
+    "name": "Game Boy",
+    "confidence": 4,
+    "flags": [],
+    "description": "Gummiknapparnas dova klick under spelandet",
+    "searchTerms": [
+      "game boy",
+      "handheld buttons",
+      "button click"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1989-game-boy.mp3"
+  },
+  {
+    "id": "1989-parabolen",
+    "year": 1989,
+    "decade": 1980,
+    "name": "Parabolen",
+    "confidence": 4,
+    "flags": [
+      "swedish"
+    ],
+    "description": "Mottagaren som söker och låser på satelliten",
+    "searchTerms": [
+      "satellite receiver",
+      "receiver beep",
+      "tuning beep"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1989-parabolen.mp3"
+  },
+  {
+    "id": "1990-kopiatorn",
+    "year": 1990,
+    "decade": 1990,
+    "name": "Kopiatorn",
+    "confidence": 5,
+    "flags": [
+      "verifyYear"
+    ],
+    "description": "Valsarna som drar papperet medan ljusstrimman sveper",
+    "searchTerms": [
+      "photocopier",
+      "copy machine",
+      "copier"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1990-kopiatorn.mp3"
+  },
+  {
+    "id": "1991-gsm-storningen",
+    "year": 1991,
+    "decade": 1990,
+    "name": "GSM-störningen",
+    "confidence": 5,
+    "flags": [],
+    "description": "Det rytmiska da-da-da-dut i högtalaren strax innan telefonen ringer",
+    "searchTerms": [
+      "gsm interference",
+      "phone interference",
+      "gsm buzz"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1991-gsm-storningen.mp3"
+  },
+  {
+    "id": "1991-systembolagets-sjalvbetjaning",
+    "year": 1991,
+    "decade": 1990,
+    "name": "Systembolagets självbetjäning",
+    "confidence": 4,
+    "flags": [
+      "swedish"
+    ],
+    "description": "Flaskorna som klirrar i korgen mellan hyllorna",
+    "searchTerms": [
+      "bottles clinking",
+      "glass bottles",
+      "bottle clink"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1991-systembolagets-sjalvbetjaning.mp3"
+  },
+  {
+    "id": "1992-mobilens-knappsats",
+    "year": 1992,
+    "decade": 1990,
+    "name": "Mobilens knappsats",
+    "confidence": 5,
+    "flags": [],
+    "description": "Knapptryckens hårda klick när ett sms knackas in",
+    "searchTerms": [
+      "phone keypad",
+      "keypad beep",
+      "nokia keypad"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1992-mobilens-knappsats.mp3"
+  },
+  {
+    "id": "1992-minidisc",
+    "year": 1992,
+    "decade": 1990,
+    "name": "MiniDisc",
+    "confidence": 3,
+    "flags": [],
+    "description": "Skivan som dras in och motorn som varvar upp",
+    "searchTerms": [
+      "minidisc",
+      "minidisc insert",
+      "md player"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1992-minidisc.mp3"
+  },
+  {
+    "id": "1992-kassetten-som-spolas",
+    "year": 1992,
+    "decade": 1990,
+    "name": "Kassetten som spolas",
+    "confidence": 5,
+    "flags": [
+      "verifyYear"
+    ],
+    "description": "Det stigande vinandet när bandet rusar tillbaka",
+    "searchTerms": [
+      "cassette rewind",
+      "tape rewind",
+      "fast forward tape"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1992-kassetten-som-spolas.mp3"
+  },
+  {
+    "id": "1992-nerf-pistolen",
+    "year": 1992,
+    "decade": 1990,
+    "name": "Nerf-pistolen",
+    "confidence": 3,
+    "flags": [],
+    "description": "Det fjädrande poppet när en skumpil skjuts iväg",
+    "searchTerms": [
+      "nerf",
+      "nerf blaster",
+      "foam dart"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1992-nerf-pistolen.mp3"
+  },
+  {
+    "id": "1993-dammsugaren-utan-pase",
+    "year": 1993,
+    "decade": 1990,
+    "name": "Dammsugaren utan påse",
+    "confidence": 5,
+    "flags": [],
+    "description": "Cyklonens höga, gälla vinande",
+    "searchTerms": [
+      "vacuum cleaner",
+      "vacuum whine",
+      "bagless vacuum"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1993-dammsugaren-utan-pase.mp3"
+  },
+  {
+    "id": "1993-blixten-som-laddar",
+    "year": 1993,
+    "decade": 1990,
+    "name": "Blixten som laddar",
+    "confidence": 5,
+    "flags": [
+      "verifyYear"
+    ],
+    "description": "Det stigande vinandet innan blixten är redo",
+    "searchTerms": [
+      "camera flash",
+      "flash charge",
+      "flash whine"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1993-blixten-som-laddar.mp3"
+  },
+  {
+    "id": "1994-zip-drive",
+    "year": 1994,
+    "decade": 1990,
+    "name": "Zip-drive",
+    "confidence": 4,
+    "flags": [],
+    "description": "Det upprepade klickandet när läshuvudet slår i ändläget",
+    "searchTerms": [
+      "zip drive",
+      "zip disk",
+      "drive clicking"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1994-zip-drive.mp3"
+  },
+  {
+    "id": "1994-digitalkameran",
+    "year": 1994,
+    "decade": 1990,
+    "name": "Digitalkameran",
+    "confidence": 5,
+    "flags": [],
+    "description": "Det konstgjorda slutarljudet ur en liten högtalare",
+    "searchTerms": [
+      "camera shutter",
+      "digital shutter",
+      "fake shutter"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1994-digitalkameran.mp3"
+  },
+  {
+    "id": "1994-qr-koden",
+    "year": 1994,
+    "decade": 1990,
+    "name": "QR-koden",
+    "confidence": 4,
+    "flags": [],
+    "description": "Skannerns bekräftande pip vid avläsning",
+    "searchTerms": [
+      "scanner beep",
+      "scan confirm",
+      "barcode beep"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1994-qr-koden.mp3"
+  },
+  {
+    "id": "1995-robotgrasklipparen",
+    "year": 1995,
+    "decade": 1990,
+    "name": "Robotgräsklipparen",
+    "confidence": 3,
+    "flags": [
+      "swedish"
+    ],
+    "description": "Det låga surret när den betar av gräsmattan",
+    "searchTerms": [
+      "lawn mower",
+      "robot mower",
+      "electric mower"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1995-robotgrasklipparen.mp3"
+  },
+  {
+    "id": "1995-kulmusen",
+    "year": 1995,
+    "decade": 1990,
+    "name": "Kulmusen",
+    "confidence": 5,
+    "flags": [
+      "verifyYear"
+    ],
+    "description": "Gummikulan som rullar mot valsarna plus knappens hårda klick",
+    "searchTerms": [
+      "mouse click",
+      "computer mouse",
+      "ball mouse"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1995-kulmusen.mp3"
+  },
+  {
+    "id": "1995-kameran-med-skarm",
+    "year": 1995,
+    "decade": 1990,
+    "name": "Kameran med skärm",
+    "confidence": 4,
+    "flags": [],
+    "description": "Zoommotorn som surrar när objektivet körs ut",
+    "searchTerms": [
+      "camera zoom",
+      "zoom motor",
+      "lens motor"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1995-kameran-med-skarm.mp3"
+  },
+  {
+    "id": "1995-crt-tv-n-som-stangs-av",
+    "year": 1995,
+    "decade": 1990,
+    "name": "CRT-TV:n som stängs av",
+    "confidence": 5,
+    "flags": [
+      "verifyYear"
+    ],
+    "description": "Det djupa dunket och statiken som knastrar mot skärmen",
+    "searchTerms": [
+      "crt off",
+      "tv power off",
+      "degauss"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1995-crt-tv-n-som-stangs-av.mp3"
+  },
+  {
+    "id": "1995-tunnelbanans-dorrsignal",
+    "year": 1995,
+    "decade": 1990,
+    "name": "Tunnelbanans dörrsignal",
+    "confidence": 4,
+    "flags": [
+      "verifyYear",
+      "swedish"
+    ],
+    "description": "Signalen strax innan dörrarna stängs",
+    "searchTerms": [],
+    "recordYourself": true,
+    "audio": "data/audio/1995-tunnelbanans-dorrsignal.mp3"
+  },
+  {
+    "id": "1996-vikmobilen",
+    "year": 1996,
+    "decade": 1990,
+    "name": "Vikmobilen",
+    "confidence": 5,
+    "flags": [],
+    "description": "Luckan som fälls upp och smäller igen",
+    "searchTerms": [
+      "flip phone",
+      "flip phone close",
+      "phone snap"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1996-vikmobilen.mp3"
+  },
+  {
+    "id": "1996-mobilen-som-vibrerar",
+    "year": 1996,
+    "decade": 1990,
+    "name": "Mobilen som vibrerar",
+    "confidence": 5,
+    "flags": [],
+    "description": "Det tunga surret mot bordsskivan",
+    "searchTerms": [
+      "phone vibrate",
+      "vibration",
+      "phone buzz table"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1996-mobilen-som-vibrerar.mp3"
+  },
+  {
+    "id": "1996-dvd-spelaren",
+    "year": 1996,
+    "decade": 1990,
+    "name": "DVD-spelaren",
+    "confidence": 5,
+    "flags": [],
+    "description": "Luckan som glider ut och skivan som varvar upp",
+    "searchTerms": [
+      "dvd player",
+      "dvd tray",
+      "disc spin"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1996-dvd-spelaren.mp3"
+  },
+  {
+    "id": "1997-kontaktlos-betalning",
+    "year": 1997,
+    "decade": 1990,
+    "name": "Kontaktlös betalning",
+    "confidence": 5,
+    "flags": [],
+    "description": "Terminalens korta bekräftande pip vid godkänt köp",
+    "searchTerms": [
+      "payment beep",
+      "terminal beep",
+      "contactless beep"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1997-kontaktlos-betalning.mp3"
+  },
+  {
+    "id": "1998-56k-modemet",
+    "year": 1998,
+    "decade": 1990,
+    "name": "56k-modemet",
+    "confidence": 5,
+    "flags": [],
+    "description": "Uppkopplingens skrikande handskakning mot Internet",
+    "searchTerms": [
+      "modem",
+      "dial up",
+      "dialup modem"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1998-56k-modemet.mp3"
+  },
+  {
+    "id": "1998-harddisken",
+    "year": 1998,
+    "decade": 1990,
+    "name": "Hårddisken",
+    "confidence": 5,
+    "flags": [
+      "verifyYear"
+    ],
+    "description": "Läshuvudet som klickar sig fram över plattorna",
+    "searchTerms": [
+      "hard drive",
+      "hdd clicking",
+      "drive seek"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1998-harddisken.mp3"
+  },
+  {
+    "id": "1998-cd-brannaren",
+    "year": 1998,
+    "decade": 1990,
+    "name": "CD-brännaren",
+    "confidence": 4,
+    "flags": [
+      "verifyYear"
+    ],
+    "description": "Skivan som varvar upp och lasern som skriver",
+    "searchTerms": [
+      "cd burner",
+      "cd writing",
+      "disc burn"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1998-cd-brannaren.mp3"
+  },
+  {
+    "id": "1999-beyblade",
+    "year": 1999,
+    "decade": 1990,
+    "name": "Beyblade",
+    "confidence": 3,
+    "flags": [],
+    "description": "Snörstartaren som river igång och toppen som snurrar",
+    "searchTerms": [
+      "spinning top",
+      "beyblade",
+      "ripcord launcher"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1999-beyblade.mp3"
+  },
+  {
+    "id": "1999-bluetooth",
+    "year": 1999,
+    "decade": 1990,
+    "name": "Bluetooth",
+    "confidence": 4,
+    "flags": [
+      "swedish"
+    ],
+    "description": "Det stigande tonparet vid parkoppling",
+    "searchTerms": [
+      "bluetooth beep",
+      "pairing beep",
+      "connect beep"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/1999-bluetooth.mp3"
+  },
+  {
+    "id": "2000-nokia-3310",
+    "year": 2000,
+    "decade": 2000,
+    "name": "Nokia 3310",
+    "confidence": 5,
+    "flags": [],
+    "description": "Knapptryckens hårda klick under textmeddelanden",
+    "searchTerms": [],
+    "recordYourself": true,
+    "audio": "data/audio/2000-nokia-3310.mp3"
+  },
+  {
+    "id": "2001-ipod",
+    "year": 2001,
+    "decade": 2000,
+    "name": "iPod",
+    "confidence": 4,
+    "flags": [],
+    "description": "Klickhjulet som tickar när man bläddrar genom listan",
+    "searchTerms": [],
+    "recordYourself": true,
+    "audio": "data/audio/2001-ipod.mp3"
+  },
+  {
+    "id": "2002-robotdammsugaren",
+    "year": 2002,
+    "decade": 2000,
+    "name": "Robotdammsugaren",
+    "confidence": 5,
+    "flags": [],
+    "description": "Motorn som startar och hjulen som byter riktning",
+    "searchTerms": [
+      "robot vacuum",
+      "roomba",
+      "vacuum startup"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/2002-robotdammsugaren.mp3"
+  },
+  {
+    "id": "2002-kameramobilen",
+    "year": 2002,
+    "decade": 2000,
+    "name": "Kameramobilen",
+    "confidence": 5,
+    "flags": [
+      "verifyYear"
+    ],
+    "description": "Det konstgjorda slutarklicket ur telefonen",
+    "searchTerms": [
+      "camera shutter",
+      "phone shutter",
+      "fake shutter"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/2002-kameramobilen.mp3"
+  },
+  {
+    "id": "2003-laptopens-cd-lucka",
+    "year": 2003,
+    "decade": 2000,
+    "name": "Laptopens cd-lucka",
+    "confidence": 4,
+    "flags": [
+      "verifyYear"
+    ],
+    "description": "Motorn som matar ut luckan med ett klick",
+    "searchTerms": [
+      "cd tray eject",
+      "laptop drive",
+      "disc eject"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/2003-laptopens-cd-lucka.mp3"
+  },
+  {
+    "id": "2004-gps-navigatorn",
+    "year": 2004,
+    "decade": 2000,
+    "name": "GPS-navigatorn",
+    "confidence": 5,
+    "flags": [],
+    "description": "Pipet vid avfart innan rösten tar vid",
+    "searchTerms": [
+      "gps beep",
+      "navigation beep",
+      "sat nav"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/2004-gps-navigatorn.mp3"
+  },
+  {
+    "id": "2006-hoghastighetshandtorken",
+    "year": 2006,
+    "decade": 2000,
+    "name": "Höghastighetshandtorken",
+    "confidence": 5,
+    "flags": [],
+    "description": "Den öronbedövande luftstrålen på offentliga toaletter",
+    "searchTerms": [
+      "hand dryer",
+      "air dryer",
+      "dyson dryer"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/2006-hoghastighetshandtorken.mp3"
+  },
+  {
+    "id": "2006-wii-fjarrkontrollen",
+    "year": 2006,
+    "decade": 2000,
+    "name": "Wii-fjärrkontrollen",
+    "confidence": 4,
+    "flags": [],
+    "description": "Det tunna högtalarljudet ur handkontrollen",
+    "searchTerms": [
+      "controller beep",
+      "wii remote",
+      "game beep"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/2006-wii-fjarrkontrollen.mp3"
+  },
+  {
+    "id": "2007-analoga-tv-natet",
+    "year": 2007,
+    "decade": 2000,
+    "name": "Analoga TV-nätet",
+    "confidence": 5,
+    "flags": [
+      "swedish",
+      "vanished"
+    ],
+    "description": "Bruset — den snöiga skärmen när ingen signal finns",
+    "searchTerms": [
+      "tv static",
+      "white noise",
+      "no signal"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/2007-analoga-tv-natet.mp3"
+  },
+  {
+    "id": "2008-platt-tv-n",
+    "year": 2008,
+    "decade": 2000,
+    "name": "Platt-TV:n",
+    "confidence": 4,
+    "flags": [
+      "verifyYear"
+    ],
+    "description": "Det nästan ljudlösa klicket när den vaknar ur standby",
+    "searchTerms": [
+      "tv power on",
+      "tv click on",
+      "flat tv"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/2008-platt-tv-n.mp3"
+  },
+  {
+    "id": "2009-3d-skrivaren",
+    "year": 2009,
+    "decade": 2000,
+    "name": "3D-skrivaren",
+    "confidence": 4,
+    "flags": [],
+    "description": "Stegmotorernas sjungande fram och tillbaka",
+    "searchTerms": [
+      "3d printer",
+      "stepper motor",
+      "printer moving"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/2009-3d-skrivaren.mp3"
+  },
+  {
+    "id": "2010-airfryern",
+    "year": 2010,
+    "decade": 2010,
+    "name": "Airfryern",
+    "confidence": 5,
+    "flags": [],
+    "description": "Fläkten som surrar högt medan korgen skakas",
+    "searchTerms": [
+      "air fryer",
+      "fryer fan",
+      "air fryer beep"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/2010-airfryern.mp3"
+  },
+  {
+    "id": "2010-dronaren",
+    "year": 2010,
+    "decade": 2010,
+    "name": "Drönaren",
+    "confidence": 5,
+    "flags": [],
+    "description": "Det höga insektslika surret från fyra propellrar",
+    "searchTerms": [
+      "drone",
+      "quadcopter",
+      "drone propeller"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/2010-dronaren.mp3"
+  },
+  {
+    "id": "2010-elbilens-gangljud",
+    "year": 2010,
+    "decade": 2010,
+    "name": "Elbilens gångljud",
+    "confidence": 4,
+    "flags": [
+      "verifyYear"
+    ],
+    "description": "Det syntetiska surret vid låg hastighet",
+    "searchTerms": [
+      "electric car warning",
+      "ev sound",
+      "pedestrian warning"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/2010-elbilens-gangljud.mp3"
+  },
+  {
+    "id": "2010-elbilsladdaren",
+    "year": 2010,
+    "decade": 2010,
+    "name": "Elbilsladdaren",
+    "confidence": 4,
+    "flags": [],
+    "description": "Kontakten som klickar fast och reläet som slår till",
+    "searchTerms": [
+      "ev charger",
+      "charging plug",
+      "charger click"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/2010-elbilsladdaren.mp3"
+  },
+  {
+    "id": "2010-surfplattan",
+    "year": 2010,
+    "decade": 2010,
+    "name": "Surfplattan",
+    "confidence": 4,
+    "flags": [],
+    "description": "Den mjuka klicksignalen vid tangenttryck på glas",
+    "searchTerms": [
+      "touchscreen tap",
+      "tablet tap",
+      "screen keyboard tap"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/2010-surfplattan.mp3"
+  },
+  {
+    "id": "2010-vuvuzelan",
+    "year": 2010,
+    "decade": 2010,
+    "name": "Vuvuzelan",
+    "confidence": 5,
+    "flags": [],
+    "description": "Den entoniga, surrande hornstöten som fyller stadion",
+    "searchTerms": [
+      "vuvuzela",
+      "stadium horn",
+      "vuvuzela horn"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/2010-vuvuzelan.mp3"
+  },
+  {
+    "id": "2012-swish",
+    "year": 2012,
+    "decade": 2010,
+    "name": "Swish",
+    "confidence": 5,
+    "flags": [
+      "swedish"
+    ],
+    "description": "Signalen när betalningen går igenom",
+    "searchTerms": [
+      "payment success",
+      "success beep",
+      "confirm beep"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/2012-swish.mp3"
+  },
+  {
+    "id": "2013-smartlaset",
+    "year": 2013,
+    "decade": 2010,
+    "name": "Smartlåset",
+    "confidence": 4,
+    "flags": [],
+    "description": "Motorn som vrider låskolven efter rätt kod",
+    "searchTerms": [
+      "smart lock",
+      "door lock motor",
+      "keypad lock"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/2013-smartlaset.mp3"
+  },
+  {
+    "id": "2013-videodorrklockan",
+    "year": 2013,
+    "decade": 2010,
+    "name": "Videodörrklockan",
+    "confidence": 4,
+    "flags": [],
+    "description": "Signalen inne i telefonen när någon ringer på",
+    "searchTerms": [
+      "doorbell chime",
+      "door notification",
+      "video doorbell"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/2013-videodorrklockan.mp3"
+  },
+  {
+    "id": "2013-fingeravtryckslaset",
+    "year": 2013,
+    "decade": 2010,
+    "name": "Fingeravtryckslåset",
+    "confidence": 4,
+    "flags": [],
+    "description": "Klicket när hemknappen trycks in och telefonen låses upp",
+    "searchTerms": [
+      "phone unlock",
+      "button click",
+      "home button"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/2013-fingeravtryckslaset.mp3"
+  },
+  {
+    "id": "2014-rostassistenten",
+    "year": 2014,
+    "decade": 2010,
+    "name": "Röstassistenten",
+    "confidence": 4,
+    "flags": [],
+    "description": "Det korta pling som bekräftar att den lyssnar",
+    "searchTerms": [
+      "smart speaker",
+      "assistant chime",
+      "listening beep"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/2014-rostassistenten.mp3"
+  },
+  {
+    "id": "2015-smartklockan",
+    "year": 2015,
+    "decade": 2010,
+    "name": "Smartklockan",
+    "confidence": 4,
+    "flags": [],
+    "description": "Den korta vibrerande notissignalen mot handleden",
+    "searchTerms": [
+      "watch notification",
+      "smartwatch",
+      "haptic chime"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/2015-smartklockan.mp3"
+  },
+  {
+    "id": "2015-sista-telefonkiosken",
+    "year": 2015,
+    "decade": 2010,
+    "name": "Sista telefonkiosken",
+    "confidence": 4,
+    "flags": [
+      "swedish",
+      "vanished"
+    ],
+    "description": "Myntet som ramlar ner i myntlådan",
+    "searchTerms": [
+      "payphone coin",
+      "coin drop",
+      "payphone"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/2015-sista-telefonkiosken.mp3"
+  },
+  {
+    "id": "2017-nintendo-switch",
+    "year": 2017,
+    "decade": 2010,
+    "name": "Nintendo Switch",
+    "confidence": 3,
+    "flags": [],
+    "description": "Klicket när Joy-Con-kontrollen skjuts fast på sidan",
+    "searchTerms": [
+      "controller click",
+      "joy con",
+      "slide click"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/2017-nintendo-switch.mp3"
+  },
+  {
+    "id": "2017-elsparkcykeln",
+    "year": 2017,
+    "decade": 2010,
+    "name": "Elsparkcykeln",
+    "confidence": 5,
+    "flags": [],
+    "description": "Melodin när cykeln låses upp och aktiveras",
+    "searchTerms": [
+      "scooter beep",
+      "e-scooter",
+      "scooter unlock"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/2017-elsparkcykeln.mp3"
+  },
+  {
+    "id": "2017-fidget-spinner",
+    "year": 2017,
+    "decade": 2010,
+    "name": "Fidget spinner",
+    "confidence": 4,
+    "flags": [],
+    "description": "Kullagret som surrar när den snurrar mellan fingrarna",
+    "searchTerms": [
+      "fidget spinner",
+      "spinner",
+      "bearing spin"
+    ],
+    "recordYourself": false,
+    "audio": "data/audio/2017-fidget-spinner.mp3"
+  }
+]

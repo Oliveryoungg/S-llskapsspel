@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="sv">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Nostalgispelet — Ljuddemo</title>
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<div class="crt-overlay" aria-hidden="true"></div>
+
+<header class="app-header">
+  <div class="app-header__title">
+    <span class="app-header__logo">📻</span>
+    <div>
+      <h1>Nostalgispelet</h1>
+      <p class="app-header__tag">Gissa när ljudet föddes — 142 vardagsljud, 1870–2017</p>
+    </div>
+  </div>
+  <nav class="app-header__nav" id="nav" hidden>
+    <button class="btn btn--ghost" id="nav-home">↩ Till start</button>
+  </nav>
+</header>
+
+<main id="app">
+
+  <!-- START -->
+  <section id="screen-start" class="screen">
+    <div class="panel panel--intro">
+      <h2>Ett tidslinjespel om ljuden som formade vardagen</h2>
+      <p>
+        Varje kort i katalogen är ett ljud — från skrivmaskinens returklocka 1874 till
+        fidget spinnerns kullager 2017. I <strong>Tidslinjen</strong> turas ni om att
+        placera nästa mysteriumljud rätt i er egen kronologi. I <strong>Soloquizet</strong>
+        övar du på att pricka rätt årtal själv.
+      </p>
+      <div class="start-actions">
+        <button class="btn btn--primary" id="start-timeline">🕰️ Spela Tidslinjen (2–6 spelare)</button>
+        <button class="btn btn--secondary" id="start-quiz">🎯 Soloquiz</button>
+        <button class="btn btn--ghost" id="start-browse">📚 Bläddra i katalogen</button>
+      </div>
+    </div>
+
+    <div class="panel panel--stats">
+      <h3>Om katalogen</h3>
+      <ul class="stat-list" id="catalog-stats"></ul>
+      <p class="fineprint">
+        Sammanställd juli 2026. Sökorden är tänkta för <a href="https://freesound.org" target="_blank" rel="noopener">Freesound</a>
+        (CC0). Riktiga ljudfiler saknas ännu i detta demo — se
+        <a href="#" id="link-about-audio">hur ljud spelas upp</a>.
+      </p>
+    </div>
+  </section>
+
+  <!-- TIMELINE SETUP -->
+  <section id="screen-timeline-setup" class="screen" hidden>
+    <div class="panel">
+      <h2>Ställ in Tidslinjen</h2>
+
+      <div class="field">
+        <label>Spelare (2–6)</label>
+        <div id="player-inputs" class="player-inputs"></div>
+        <div class="player-input-actions">
+          <button class="btn btn--ghost btn--small" id="add-player">+ Lägg till spelare</button>
+          <button class="btn btn--ghost btn--small" id="remove-player">− Ta bort spelare</button>
+        </div>
+      </div>
+
+      <div class="field">
+        <label for="target-score">Kort som krävs för att vinna</label>
+        <input type="range" id="target-score" min="4" max="15" value="8" />
+        <output id="target-score-out">8</output>
+      </div>
+
+      <div class="field field--checkboxes">
+        <label class="checkbox">
+          <input type="checkbox" id="filter-verified" />
+          Endast källkontrollerade årtal (124 av 142)
+        </label>
+        <label class="checkbox">
+          <input type="checkbox" id="filter-no-record" />
+          Uteslut ljud utan biblioteksträff ("spela in själv")
+        </label>
+      </div>
+
+      <button class="btn btn--primary" id="begin-timeline">Starta spelet</button>
+    </div>
+  </section>
+
+  <!-- TIMELINE GAME -->
+  <section id="screen-timeline-game" class="screen" hidden>
+    <div class="game-status">
+      <div class="game-status__turn">
+        Tur: <strong id="turn-player-name">—</strong>
+      </div>
+      <div class="game-status__deck"><span id="deck-remaining">0</span> kort kvar i leken</div>
+      <div class="game-status__scores" id="score-board"></div>
+    </div>
+
+    <div class="mystery-card" id="mystery-card">
+      <div class="mystery-card__badge">MYSTERIUMLJUD</div>
+      <p class="mystery-card__desc" id="mystery-desc">—</p>
+      <div class="mystery-card__flags" id="mystery-flags"></div>
+      <div class="mystery-card__confidence" id="mystery-confidence" title="Hur säkert vi hittar en bra matchning på Freesound"></div>
+
+      <div class="mystery-card__audio">
+        <button class="btn btn--secondary" id="play-audio">🔊 Spela ljud</button>
+        <a class="fs-link" id="freesound-link" href="#" target="_blank" rel="noopener">🔎 Sök riktigt ljud på Freesound</a>
+      </div>
+      <p class="audio-note" id="audio-note"></p>
+    </div>
+
+    <div class="timeline-wrap">
+      <h3>Din tidslinje</h3>
+      <div class="timeline" id="timeline"></div>
+    </div>
+
+    <div class="reveal-panel" id="reveal-panel" hidden>
+      <div class="reveal-panel__result" id="reveal-result"></div>
+      <div class="reveal-panel__card" id="reveal-card"></div>
+      <button class="btn btn--primary" id="next-turn">Nästa spelare ➜</button>
+    </div>
+  </section>
+
+  <!-- QUIZ -->
+  <section id="screen-quiz" class="screen" hidden>
+    <div class="panel">
+      <div class="quiz-scorebar">
+        <span>Poäng: <strong id="quiz-score">0</strong></span>
+        <span>Ljud: <strong id="quiz-round">0</strong> / <span id="quiz-total">0</span></span>
+      </div>
+
+      <div class="mystery-card" id="quiz-card">
+        <div class="mystery-card__badge">GISSA ÅRET</div>
+        <p class="mystery-card__desc" id="quiz-desc">—</p>
+        <div class="mystery-card__flags" id="quiz-flags"></div>
+        <div class="mystery-card__audio">
+          <button class="btn btn--secondary" id="quiz-play-audio">🔊 Spela ljud</button>
+          <a class="fs-link" id="quiz-freesound-link" href="#" target="_blank" rel="noopener">🔎 Sök riktigt ljud på Freesound</a>
+        </div>
+      </div>
+
+      <div class="quiz-guess" id="quiz-guess-area">
+        <label for="quiz-slider">Din gissning: <output id="quiz-slider-out">1945</output></label>
+        <input type="range" id="quiz-slider" min="1870" max="2026" value="1945" />
+        <button class="btn btn--primary" id="quiz-submit">Gissa!</button>
+      </div>
+
+      <div class="reveal-panel" id="quiz-reveal-panel" hidden>
+        <div class="reveal-panel__result" id="quiz-reveal-result"></div>
+        <div class="reveal-panel__card" id="quiz-reveal-card"></div>
+        <button class="btn btn--primary" id="quiz-next">Nästa ljud ➜</button>
+        <button class="btn btn--ghost" id="quiz-finish">Avsluta rundan</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- BROWSE -->
+  <section id="screen-browse" class="screen" hidden>
+    <div class="panel">
+      <h2>Ljudkatalogen</h2>
+      <div class="browse-filters">
+        <input type="search" id="browse-search" placeholder="Sök på namn, ljud eller sökord…" />
+      </div>
+      <div class="browse-list" id="browse-list"></div>
+    </div>
+  </section>
+
+  <!-- GAME OVER -->
+  <div class="modal" id="modal-gameover" hidden>
+    <div class="modal__box">
+      <h2 id="gameover-title">🏆 Spelet är slut!</h2>
+      <div id="gameover-standings"></div>
+      <button class="btn btn--primary" id="gameover-again">Spela igen</button>
+      <button class="btn btn--ghost" id="gameover-home">Till start</button>
+    </div>
+  </div>
+
+</main>
+
+<footer class="app-footer">
+  <p>Demo byggt från <code>Ljudkatalog.pdf</code> · Sammanställd juli 2026 · Ljud via <a href="https://freesound.org" target="_blank" rel="noopener">Freesound (CC0)</a></p>
+</footer>
+
+<script src="js/catalog.js"></script>
+<script src="js/audio.js"></script>
+<script src="js/timeline-game.js"></script>
+<script src="js/quiz-game.js"></script>
+<script src="js/browse.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
