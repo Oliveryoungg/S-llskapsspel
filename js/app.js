@@ -64,6 +64,20 @@
     });
   }
 
+  function renderReadonlyTimelineDom(container, timeline) {
+    container.innerHTML = "";
+    if (timeline.length === 0) {
+      container.innerHTML = `<p class="timeline-empty">Inga kort än</p>`;
+      return;
+    }
+    timeline.forEach((entry) => {
+      const div = document.createElement("div");
+      div.className = "tl-card";
+      div.innerHTML = `<span class="tl-card__year">${entry.year}</span><span class="tl-card__name">${entry.name}</span>`;
+      container.appendChild(div);
+    });
+  }
+
   function showScreen(id) {
     document.querySelectorAll(".screen").forEach((s) => (s.hidden = s.id !== id));
     document.getElementById("nav").hidden = id === "screen-start";
@@ -151,14 +165,32 @@
     container.removeChild(container.lastElementChild);
   }
 
-  function renderScoreBoard() {
-    const board = document.getElementById("score-board");
-    board.innerHTML = timelineGame.state.players
-      .map((p, i) => {
-        const active = i === timelineGame.state.currentPlayerIndex ? "score-chip--active" : "";
-        return `<span class="score-chip ${active}">${p.name}: ${p.points}/${timelineGame.state.targetScore}</span>`;
-      })
-      .join("");
+  // Ritar upp bordet: en rad per spelare med deras tidslinje synlig. Den
+  // aktiva spelarens rad är interaktiv (kan placera kortet) om interactiveCurrent
+  // är true; annars låst, precis som allas andra rader alltid är.
+  function renderPlayerTable(interactiveCurrent) {
+    const game = timelineGame;
+    const tableEl = document.getElementById("player-table");
+    tableEl.innerHTML = "";
+    game.state.players.forEach((player, i) => {
+      const isCurrent = i === game.state.currentPlayerIndex;
+      const row = document.createElement("div");
+      row.className = "player-row" + (isCurrent ? " player-row--active" : "");
+      row.innerHTML = `
+        <div class="player-row__header">
+          <span class="player-row__name">${isCurrent ? "▶ " : ""}${player.name}</span>
+          <span class="player-row__score">${player.points}/${game.state.targetScore} kort</span>
+        </div>
+        <div class="timeline"></div>
+      `;
+      tableEl.appendChild(row);
+      const timelineEl = row.querySelector(".timeline");
+      if (isCurrent && interactiveCurrent) {
+        renderTimelineDom(timelineEl, player.timeline, true, handleSlotClick);
+      } else {
+        renderReadonlyTimelineDom(timelineEl, player.timeline);
+      }
+    });
   }
 
   function renderTimelineRound() {
@@ -167,7 +199,6 @@
     flipCard("mystery", false);
     document.getElementById("turn-player-name").textContent = game.currentPlayer().name;
     document.getElementById("deck-remaining").textContent = game.state.deck.length;
-    renderScoreBoard();
     renderMysteryCard(game.state.currentCard, {
       descEl: document.getElementById("mystery-desc"),
       flagsEl: document.getElementById("mystery-flags"),
@@ -175,7 +206,7 @@
       linkEl: document.getElementById("freesound-link"),
       noteEl: document.getElementById("audio-note"),
     });
-    renderTimelineDom(document.getElementById("timeline"), game.currentPlayer().timeline, true, handleSlotClick);
+    renderPlayerTable(true);
   }
 
   function handleSlotClick(idx) {
@@ -187,8 +218,7 @@
     resultEl.className = "reveal-panel__result " + (result.correct ? "is-correct" : "is-wrong");
     setFlipCardBack("mystery", result.entry, result.correct ? "is-correct" : "is-wrong");
     flipCard("mystery", true);
-    renderTimelineDom(document.getElementById("timeline"), timelineGame.currentPlayer().timeline, false, null);
-    renderScoreBoard();
+    renderPlayerTable(false);
     document.getElementById("next-turn").textContent =
       timelineGame.state.overReason === "target-reached" ? "Se resultat 🏆" : "Nästa spelare ➜";
   }

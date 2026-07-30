@@ -229,16 +229,34 @@ a { color: var(--teal); }
 }
 .game-status__turn strong { color: var(--amber); }
 .game-status__deck { color: var(--text-dim); font-family: var(--mono); }
-.game-status__scores { display: flex; gap: 10px; flex-wrap: wrap; }
-.score-chip {
-  background: var(--panel);
+
+/* ---------- Bordet: allas tidslinjer synliga samtidigt ---------- */
+.table-wrap h3 { color: var(--text-dim); font-size: 0.95rem; margin-bottom: 12px; }
+.player-row {
+  background: var(--bg-alt);
   border: 1px solid var(--panel-border);
-  border-radius: 999px;
-  padding: 4px 12px;
-  font-family: var(--mono);
-  font-size: 0.8rem;
+  border-radius: 12px;
+  padding: 14px 16px 6px;
+  margin-bottom: 12px;
+  opacity: 0.65;
+  transition: opacity 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
 }
-.score-chip--active { border-color: var(--amber); color: var(--amber); }
+.player-row--active {
+  opacity: 1;
+  border-color: var(--amber-dim);
+  box-shadow: 0 0 0 1px rgba(255, 180, 84, 0.12);
+}
+.player-row__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 6px;
+}
+.player-row__name { font-weight: 700; color: var(--text-dim); font-size: 0.9rem; }
+.player-row--active .player-row__name { color: var(--amber); }
+.player-row__score { font-family: var(--mono); font-size: 0.8rem; color: var(--text-dim); }
+.player-row--active .player-row__score { color: var(--amber); }
+.player-row .timeline { padding: 6px 4px 10px; }
 
 /* ---------- Flip card (mystery card som går att vända) ---------- */
 .flip-card {
@@ -378,7 +396,6 @@ a { color: var(--teal); }
 .audio-note { font-size: 0.75rem; color: var(--text-dim); margin: 12px 0 0; }
 
 /* ---------- Timeline ---------- */
-.timeline-wrap h3 { color: var(--text-dim); font-size: 0.95rem; margin-bottom: 12px; }
 .timeline {
   display: flex;
   align-items: stretch;
